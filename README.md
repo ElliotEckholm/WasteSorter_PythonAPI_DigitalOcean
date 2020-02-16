@@ -1,5 +1,7 @@
 # Docker image for doing inference on vision models trained with fastai
 
+Visit the Demo at: http://178.128.11.210
+
 This repo is an adaptation of https://github.com/gdoteof/fastai-vision-uvicorn-gunicorn-starlette-docker. I tried his default code and the Dockerfile is a bit old on fast.ai version so I updated it. Also added Semantic UI for better UI on the webapp part. 
 
 This docker image is a wrapper around https://github.com/tiangolo/uvicorn-gunicorn-starlette-docker, adding the dependencies to run fastai models, as well as a minimal "webapp" to make requests.
